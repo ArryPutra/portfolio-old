@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    
+    <!-- NAV BAR -->
+    <div class="navbar">
+        <div class="navbar-top-container">
+            <div class="navbar-top">
+                <div class="logo"></div>
+                <div onclick="menu()" class="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="menu-dekstop">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#project">Project</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-bottom">
+            <div class="popup-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOME -->
+    <div id="home" class="home">
+        <div class="home-header">
+
+        </div>
+
+        <div class="home-middle">
+            <div class="intro">
+                <img class="avatar" src="/avatar.png">
+                <div class="intro-desc"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <span>Hello I Am</spafn>
+                    <span class="slide-text">
+                        <span>Frontend Web</span>
+                        <span>Mobile App</span>
+                        <span>UI/UX Designer</span>
+                    </span>
+                    <a href="#about"><button>Started</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-footer">
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about" class="about">
+        <div class="about-header">
+            <div class="about-tittle">ABOUT ME</div>
+            <div class="about-desc">
+                Hello, my name is Arry Kusuma Putra, 
+                I am Web Front-end and UI/UX Designer.  
+                I'm from Indonesia, Banjarmasin.  
+                Starting as a Programmer since 2022</div>
+        </div>
+        <div class="about-middle">
+            <div></div>
+        </div>
+        <div class="about-footer">
+            <div class="education">
+                <div class="about-tittle">Education</div>
+                <div class="footer-desc">Politeknik Negeri Banjarmasin</div>
+                <div style="color: #31417d;">(2022 - NOW)</div>
+            </div>
+
+            <div class="experience">
+                <div class="about-tittle">Experience</div>
+                <div class="footer-desc">Joining Community iTech</div>
+                <div style="color: #31417d;">(2022 - NOW)</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div id="skills" class="skills">
+        <div class="skills-header">
+            <div>SKILLS</div>
+        </div>
+        <div class="skills-footer">
+            <div class="skills-container"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true">
+                <div class="skills-tittle">Fronted Web</div>
+                <div class="skills-img">
+                    <img src="/html.svg">
+                    <img src="/css.svg">
+                    <img src="/javascript.svg">
+                </div>
+            </div>
+            <div class="skills-container"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-delay="200">
+                <div class="skills-tittle">UI/UX Design</div>
+                <div class="skills-img">
+                    <img style="width: 15%;" src="/figma.svg">
+                </div>
+            </div>
+            <div class="skills-container"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-delay="300">
+                <div class="skills-tittle">Mobile App</div>
+                <div class="skills-img">
+                    <img src="/flutter.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECT -->
+    <div id="project" class="project">
+        <div class="project-header">PROJECT</div>
+        <div class="project-footer">
+            <div 
+            class="project-container"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+                <div class="project-img"></div>
+                <div class="project-tittle">COLOR PICKER RANDOM</div>
+            </div>
+            <div class="project-container"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+                <div class="project-img"></div>
+                <div class="project-tittle">COLOR PICKER RANDOM</div>
+            </div>
+            <div class="project-container"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+                <div class="project-img"></div>
+                <div class="project-tittle">COLOR PICKER RANDOM</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <span class="contact-tittle">SOCIAL MEDIA</span>
+                <div class="social-media">
+                    <a href="https://www.fiverr.com/arryputra?public_mode=true">
+                        <div class="social-media-img">
+                            <img src="/fiverr.svg">
+                            <span>ArryPutra</span>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/rryputra/" target="_blank">
+                    <div class="social-media-img">
+                        <img src="/instagram.svg">
+                        <span>@rryputra</span>
+                    </div>
+                    </a>
+                    <a href="https://wa.me/6281350445065" target="_blank">
+                    <div class="social-media-img">
+                        <img src="/whatsapp.svg">
+                        <span>+62 813-5044-5065</span>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <form action="https://formsubmit.co/bcaada81c10df6e89b6a81e2af00286f" method="POST" target="_blank" class="contact-footer">
+                <span class="contact-tittle">LET'S CONTACT ME</span>
+                <div class="contact-input">
+                    <input type="text" name="Name" class="input-name" placeholder="Name">
+                    <textarea type="text" name="Type Something" class="input-text" placeholder="Type Something ..."></textarea>
+                    <button type="submit" class="button-send">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/script.js">
+        
+    </script>
+
+</body>
+</html>
